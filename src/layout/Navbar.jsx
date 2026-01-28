@@ -44,9 +44,11 @@ export const Navbar = () => {
             ))}
 
             {/* CTA Button */}
-            <button className="bg-accent text-white h-16 px-10 self-center uppercase font-semibold">
-              Contatti
-            </button>
+            <a href="#contacts">
+              <button className="bg-accent text-white h-16 px-10 self-center uppercase font-semibold">
+                Contatti
+              </button>
+            </a>
           </div>
 
           {/* Mobile toggler */}
@@ -75,7 +77,11 @@ export const Navbar = () => {
               </a>
             ))}
             {/* CTA Button */}
-            <Button size='lg' className="animate-in slide-in-t time-300 time-delay-100 w-full">
+            <Button
+              size="lg"
+              href="#contacts"
+              className="animate-in slide-in-t time-300 time-delay-100 w-full"
+            >
               contatti
             </Button>
           </div>

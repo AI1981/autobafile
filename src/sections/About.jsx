@@ -22,7 +22,7 @@ export const About = () => {
   
     const textCard = `Nata come piccola officina nel quartiere Prati, Autobafile è oggi un centro completo per la cura dell’auto. Alla meccanica di alta qualità abbiamo affiancato un servizio di parcheggio custodito e sicuro, con oltre 20 posti auto e sistemi di sicurezza moderni. La fiducia dei clienti resta il nostro valore principale.`;
   return (
-    <section id="#about">
+    <section id="about">
       <div className="container mx-auto py-28 px-6">
         <div className="grid lg:grid-cols-2 gap-10">
           {/* left col */}

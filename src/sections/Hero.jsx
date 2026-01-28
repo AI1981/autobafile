@@ -10,9 +10,7 @@ export const Hero = () => {
             {/* left col */}
             <div className="flex flex-col text-center md:text-start gap-2 p-3">
               <div className="animate-in slide-in-t time-500">
-                <Badge>
-                  roma - prati
-                </Badge>
+                <Badge>roma - prati</Badge>
               </div>
               <h1 className="text-4xl md:text-8xl font-extrabold tracking-tight leading-tight animate-in slide-in-t time-500 time-delay-100">
                 <span>Parcheggio facile</span>
@@ -26,12 +24,14 @@ export const Hero = () => {
                 un'officina meccanica completa per ogni esigenza della tua auto.
               </p>
               <div>
-                <Button
-                  size="lg"
-                  className="animate-in slide-in-t time-500 time-delay-300"
-                >
-                  scopri di più
-                </Button>
+                <a href="#about">
+                  <Button
+                    size="lg"
+                    className="animate-in slide-in-t time-500 time-delay-300"
+                  >
+                    scopri di più
+                  </Button>
+                </a>
               </div>
             </div>
             {/* right col */}

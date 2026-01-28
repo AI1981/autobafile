@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 export const Contact = () => {
   return (
-    <section className="relative overflow-hidden py-25">
+    <section id="contacts" className="relative overflow-hidden py-25">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-6">
           {/* left col */}
