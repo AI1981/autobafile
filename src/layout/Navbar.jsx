@@ -77,13 +77,14 @@ export const Navbar = () => {
               </a>
             ))}
             {/* CTA Button */}
-            <Button
-              size="lg"
-              href="#contacts"
-              className="animate-in slide-in-t time-300 time-delay-100 w-full"
-            >
-              contatti
-            </Button>
+            <a className='w-full' href="#contacts">
+              <Button
+                size="lg"
+                className="animate-in slide-in-t time-300 time-delay-100 w-full"
+              >
+                contatti
+              </Button>
+            </a>
           </div>
         )}
       </header>
