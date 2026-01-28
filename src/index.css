@@ -18,6 +18,12 @@
   }
 }
 
+@layer components {
+  .bg-hero{
+    background-image: url(/public/hero.jpg);
+  }
+}
+
 @layer utilities{
   .animate-in{
     animation-fill-mode: both;

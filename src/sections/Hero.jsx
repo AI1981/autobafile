@@ -3,16 +3,17 @@ import Button from '../components/Button';
 import Badge from '../components/Badge';
 
 export const Hero = () => {
+
     return (
       <section className="relative min-h-screen flex items-center overflow-hidden">
-        <div className="container mx-auto px-5 pt-30">
+        <div className="container mx-auto px-4 pt-30">
           <div className="grid lg:grid-cols-2 gap-4">
             {/* left col */}
             <div className="flex flex-col text-center md:text-start gap-2 p-3">
               <div className="animate-in slide-in-t time-500">
                 <Badge>roma - prati</Badge>
               </div>
-              <h1 className="text-4xl md:text-8xl font-extrabold tracking-tight leading-tight animate-in slide-in-t time-500 time-delay-100">
+              <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight leading-tight animate-in slide-in-t time-500 time-delay-100">
                 <span>Parcheggio facile</span>
                 <br />
                 <span>servizi</span>
