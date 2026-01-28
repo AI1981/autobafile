@@ -15,10 +15,7 @@ const topNavInfoRight = [
 export const Topnav = ({scrolled}) => {
     return (
       <div
-        className={
-          "${scrolled ? 'md:hidden' : 'hidden md:block' }top-0 left-0 w-full bg-gray-200 px-5 "
-        }
-      >
+        className="top-0 left-0 w-full bg-gray-200 px-5 hidden md:block">
         <div className="flex justify-between items-center p-3">
           <div className="flex space-x-5">
             {topNavInfoLeft.map((text, index) => (
