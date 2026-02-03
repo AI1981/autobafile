@@ -25,9 +25,9 @@ export const Services = () => {
       icon: <BadgeCheck />,
       text: 'tagliando',
       image: './service-tagliando.jpg',
-      titleTop: 'tagliando completo e',
-      titleAccent: 'certificato',
-      body: 'Interventi programmati secondo le specifiche del costruttore, con ricambi di qualità e controlli accurati per mantenere prestazioni e sicurezza.',
+      titleTop: 'tagliando',
+      titleAccent: 'completo',
+      body: 'Interventi programmati secondo le specifiche del costruttore, con ricambi di qualità e controlli accurati per mantenere prestazioni e sicurezza. Gli interventi sulla tua auto sono archiviati così avere uno storico dei lavori eseguiti nel tempo.',
       alt: 'Tagliando',
     },
     {

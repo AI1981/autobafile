@@ -14,12 +14,11 @@ export const Heronew = () => {
             </div>
             <div className='text-white'>
               <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight leading-tight animate-in slide-in-t time-500 time-delay-100">
-                <span>Parcheggio facile</span>
+                <span>Parcheggio e servizi</span>
                 <br />
-                <span>servizi</span>
-                <span className="text-accent"> TOP</span>
+                <span className="text-accent"> Facili</span>
               </h1>
-              <p className="mt-6 text-base md:text-lg leading-relaxed animate-in slide-in-t time-500 time-delay-200">
+              <p className="mt-6 text-base md:text-xl leading-relaxed animate-in slide-in-t time-500 time-delay-200">
                 Nel cuore di Prati, Autobafile offre soluzioni di parcheggio
                 sicuro con abbonamenti mensili o tariffe orarie, affiancate da
                 un'officina meccanica completa per ogni esigenza della tua auto.

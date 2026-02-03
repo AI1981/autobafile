@@ -16,7 +16,7 @@ export const Contact = () => {
             </h2>
             <p className="leading-relaxed">
               Siamo qui per aiutarti! Contattaci per qualsiasi domanda o per
-              prenotare un servizio. Il nostro team è pronto a fornirti
+              prenotare un servizio. Siamo pronti a fornirti
               assistenza e supporto.
             </p>
             <div className="flex flex-col w-full md:w-1/2">

@@ -19,7 +19,7 @@ export const Navbar = ({scrolled}) => {
       <header
         className="bg-white left-0 right-0 top-0 fixed z-10"
       >
-        <Topnav />
+
         <nav className="flex items-center justify-between p-3 md:p-0">
           {/* logo */}
           <a className="font-bold text-3xl md:px-8 tracking-tighter" href="#">

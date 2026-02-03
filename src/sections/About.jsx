@@ -1,26 +1,29 @@
 import { Circle } from 'lucide-react';
 import Badge from '../components/Badge';
 
+
 export const About = () => {
     const cardsInfo = [
     {
       icon: <Circle size={24} className="animate-pulse text-accent" />,
-      title: 'sicurezza prima di tutto',
-      text: 'sistema di videosorveglianza h24, personale qualificato e accessi controllati',
+      title: 'sicurezza una priorità',
+      text: 'sistema di videosorveglianza h24 e accessi controllati.',
     },
     {
       icon: <Circle size={24} className="animate-pulse text-accent" />,
-      title: 'professionalità certificata',
-      text: 'personale con certificazioni ufficiali e formazione continua',
+      title: 'professionalità garantita',
+      text: 'personale con oltre 50 anni di esperienza nel settore.',
     },
     {
       icon: <Circle size={24} className="animate-pulse text-accent" />,
-      title: "conenvenienza garantita",
-      text: 'tariffe competitive e pacchetti personalizzati per ogni esigenza.',
+      title: "Flessibilità",
+      text: 'soluzioni e pacchetti personalizzati per ogni esigenza.',
     },
     ]
   
-    const textCard = `Nata come piccola officina nel quartiere Prati, Autobafile è oggi un centro completo per la cura dell’auto. Alla meccanica di alta qualità abbiamo affiancato un servizio di parcheggio custodito e sicuro, con oltre 20 posti auto e sistemi di sicurezza moderni. La fiducia dei clienti resta il nostro valore principale.`;
+    const textCard = `Nata come piccola officina nel quartiere Prati, Autobafile è oggi un centro completo per la cura dell’auto. Alla meccanica di alta qualità abbiamo affiancato un servizio di parcheggio custodito e sicuro, con 20 posti auto e sistemi di sicurezza. La fiducia dei clienti resta il nostro valore principale.`;
+  
+    
   return (
     <section id="about">
       <div className="container mx-auto py-28 px-6">
@@ -44,18 +47,12 @@ export const About = () => {
             {cardsInfo.map((card) => (
               <div className="flex gap-4">
                 {/* icona */}
-                <div className=''>
-                  {card.icon}
-                </div>
+                <div className="">{card.icon}</div>
                 <div className="flex flex-col">
-                  <h3 className="font-bold capitalize mb-2">
-                    {card.title}
-                  </h3>
-                  <p className="leading-relaxed">
-                    {card.text}
-                  </p>
+                  <h3 className="font-bold capitalize mb-2">{card.title}</h3>
+                  <p className="leading-relaxed">{card.text}</p>
                 </div>
-              </div>       
+              </div>
             ))}
           </div>
           {/* right col */}

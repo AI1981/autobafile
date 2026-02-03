@@ -14,9 +14,9 @@ export const Hero = () => {
                 <Badge>roma - prati</Badge>
               </div>
               <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight leading-tight animate-in slide-in-t time-500 time-delay-100">
-                <span>Parcheggio facile</span>
+                <span>Parcheggio e servizi </span>
                 <br />
-                <span>servizi</span>
+                <span>facile</span>
                 <span className="text-accent"> TOP</span>
               </h1>
               <p className="text-base md:text-lg leading-relaxed animate-in slide-in-t time-500 time-delay-200">
