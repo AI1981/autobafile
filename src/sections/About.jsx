@@ -21,7 +21,7 @@ export const About = () => {
     },
     ]
   
-    const textCard = `Nata come piccola officina nel quartiere Prati, Autobafile è oggi un centro completo per la cura dell’auto. Alla meccanica di alta qualità abbiamo affiancato un servizio di parcheggio custodito e sicuro, con 20 posti auto e sistemi di sicurezza. La fiducia dei clienti resta il nostro valore principale.`;
+    const textCard = `Nata come piccola officina nel quartiere Prati, Autobafile è oggi un centro completo per la cura dell’auto. Alla meccanica di alta qualità abbiamo affiancato un servizio di parcheggio custodito e sicuro, con posti auto e sistemi di sicurezza. La fiducia dei clienti resta il nostro valore principale.`;
   
     
   return (
@@ -59,8 +59,9 @@ export const About = () => {
           <div>
             <img
               className="object-cover shadow-xl h-full"
-              src="./car-garage.jpg"
+              src="./car-garage.webp"
               alt="Autobafile"
+              loading='lazy'
             />
           </div>
         </div>

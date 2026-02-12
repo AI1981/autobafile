@@ -20,7 +20,7 @@
 
 @layer components {
   .bg-hero{
-    background-image: url(/public/hero.jpg);
+    background-image: url(/public/hero.webp);
   }
 }
 

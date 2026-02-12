@@ -9,6 +9,7 @@ import { Heronew } from "./sections/Heronew";
 import { Services } from "./sections/Services";
 import { useEffect, useState } from "react";
 
+
 function App() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -33,8 +34,10 @@ function App() {
         <About />
         <Services />
         <Contact />
-        <Footer />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

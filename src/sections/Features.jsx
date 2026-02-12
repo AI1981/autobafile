@@ -1,7 +1,10 @@
 import { SquareParking } from 'lucide-react';
 import { ClockArrowUp } from 'lucide-react';
 import { Shield } from 'lucide-react';
+
+
 export const Features = () => {
+
   const cardsInfo = [
     {
       icon: <SquareParking size={40} className='text-accent' />,
@@ -32,7 +35,9 @@ export const Features = () => {
         <div className="grid lg:grid-cols-3 gap-6">
           {/* Cards */}
           {cardsInfo.map((card) => (
-            <div className="flex flex-col justify-center gap-2 border border-gray-300/20 p-5 min-h-60 shadow-lg">
+            <div
+              className="flex flex-col justify-center gap-2 border border-gray-300/20 p-5 min-h-60 shadow-lg"
+            >
               <div className="self-center">{card.icon}</div>
               <h2 className="font-bold text-2xl leading-10 capitalize text-center">
                 {card.title}

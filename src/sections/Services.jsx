@@ -14,7 +14,7 @@ export const Services = () => {
       id: 'meccanica',
       icon: <Cog />,
       text: 'meccanica generale',
-      image: './service-meccanica.jpg',
+      image: './service-meccanica.webp',
       titleTop: 'meccanica generale da oltre',
       titleAccent: '50 anni',
       body: 'Da più di mezzo secolo ci prendiamo cura delle auto con competenza, precisione e passione. La nostra meccanica generale unisce l’esperienza maturata in 50 anni di attività alle tecnologie più attuali, offrendo interventi affidabili su ogni tipo di veicolo. Il tuo mezzo è sempre nelle mani di professionisti di fiducia.',
@@ -24,7 +24,7 @@ export const Services = () => {
       id: 'tagliando',
       icon: <BadgeCheck />,
       text: 'tagliando',
-      image: './service-tagliando.jpg',
+      image: './service-tagliando.webp',
       titleTop: 'tagliando',
       titleAccent: 'completo',
       body: 'Interventi programmati secondo le specifiche del costruttore, con ricambi di qualità e controlli accurati per mantenere prestazioni e sicurezza. Gli interventi sulla tua auto sono archiviati così avere uno storico dei lavori eseguiti nel tempo.',
@@ -34,7 +34,7 @@ export const Services = () => {
       id: 'diagnostica',
       icon: <Activity />,
       text: 'diagnostica',
-      image: './service-diagnostica.jpg',
+      image: './service-diagnostica.webp',
       titleTop: 'diagnostica elettronica',
       titleAccent: 'avanzata',
       body: 'Strumentazione aggiornata e analisi precisa dei sistemi del veicolo per individuare rapidamente anomalie e intervenire in modo mirato.',
@@ -44,7 +44,7 @@ export const Services = () => {
       id: 'clima',
       icon: <AirVent />,
       text: 'clima auto',
-      image: './service-clima.png',
+      image: './service-clima.webp',
       titleTop: 'climatizzazione',
       titleAccent: 'efficiente',
       body: 'Ricarica, ricerca perdite e sanificazione: comfort e sicurezza con controlli completi sull’impianto A/C.',
@@ -54,7 +54,7 @@ export const Services = () => {
       id: 'revisione',
       icon: <ScrollText />,
       text: 'revisione periodica',
-      image: './service-revisione.jpg',
+      image: './service-revisione.webp',
       titleTop: 'revisione periodica',
       titleAccent: 'senza pensieri',
       body: 'Preparazione e controlli preliminari per affrontare la revisione in modo semplice, con attenzione a sicurezza e conformità.',
@@ -64,7 +64,7 @@ export const Services = () => {
       id: 'parcheggio',
       icon: <SquareParking />,
       text: 'parcheggio',
-      image: './service-parcheggio.jpg',
+      image: './service-parcheggio.webp',
       titleTop: 'parcheggio custodito',
       titleAccent: 'in zona',
       body: 'Soluzioni di sosta sicura e comoda, con accesso semplice e gestione affidabile per chi lavora in città.',
@@ -124,6 +124,7 @@ export const Services = () => {
               alt={activeItem.alt}
               className="h-full w-full object-cover shadow-xl
                animate-in fade-up ease-out time-500"
+              loading='lazy'
             />
           </div>
 
