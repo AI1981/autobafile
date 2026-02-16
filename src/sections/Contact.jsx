@@ -21,7 +21,7 @@ export const Contact = () => {
             </p>
             <div className="flex flex-col w-full md:w-1/2">
               <Button>+39 3351092367</Button>
-              <Button>info@autobafile.it</Button>
+              <Button>dinox969@yahoo.it</Button>
             </div>
           </div>
           {/* right col */}
